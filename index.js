@@ -31,7 +31,7 @@ console.log(`Come back in ${yearsToAdulthood(12)} years`)
 
 
 function admit(person){
-    if(isAnAdult(person.age)==true) {
+    if(isAnAdult(person.age)===true) {
        greet(person.name)
     }
     else {
